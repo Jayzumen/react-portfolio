@@ -1,0 +1,6 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.minimap.enabled": false,
+  "editor.minimap.maxColumn": 100,
+  "cSpell.blockCheckingWhenLineLengthGreaterThan": 100
+}
