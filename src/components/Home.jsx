@@ -13,28 +13,24 @@ const Home = () => {
        md:flex-row"
       >
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-3xl sm:text-5xl font-bold text-white">
+          <h2 className="text-4xl sm:text-6xl font-bold text-white">
             I'm{" "}
-            <p className="text-5xl sm:text-7xl font-bold max-w-2xl text-cyan-400">
+            <p className="text-6xl sm:text-8xl font-bold max-w-2xl text-cyan-400">
               Jan-Niklas Reinhardt
             </p>{" "}
             a Front End Developer
           </h2>
-          <p className="text-gray-300 py-4 max-w-lg">
-            I am a self-taught frontend developer, who started learning frontend
-            development in the past few months. I started studying "Data
-            Science" in 2020 and this got me into programming.In my freetime I
-            started learning about frontend development and fell in love. Since
-            then I took multiple courses and learned every day so that I can
-            fullfill my dream to become a fulltime frontend developer.
-          </p>
+          {/* <p className="text-gray-300 py-4 max-w-lg">
+            I am a self-taught frontend developer with a passion for creative
+            webapps
+          </p> */}
 
           <div>
             <Link
               to="Projects"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r
+              className="group text-white w-fit px-6 py-3 my-3 flex items-center rounded-md bg-gradient-to-r
             from-cyan-500 to-blue-500 cursor-pointer"
             >
               Projects

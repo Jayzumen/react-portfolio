@@ -9,23 +9,23 @@ const About = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            About
+            About Me
           </p>
         </div>
-        <p className="text-xl mt-20">
-          I am a self-taught frontend developer, who started learning frontend
-          development in the past few months. I started studying "Data Science"
-          in 2020 and this got me into programming.In my freetime I started
-          learning about frontend development and fell in love. Since then I
-          took multiple courses and learned every day so that I can fullfill my
-          dream to become a fulltime frontend developer.
+        <p className="text-xl mt-20 leading-9">
+          I am a self-taught front end developer, who started learning front end
+          development in the past months. I started studying "Data Science" in
+          2020 and this got me into programming. In my free time I started
+          learning about front end development and fell in love. Since then I
+          took multiple courses and learned every day so that I can fulfill my
+          dream to become a fulltime front end developer.
         </p>
         <br />
 
-        <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque enim
-          excepturi eius, quos quisquam voluptatibus itaque aperiam qui sequi ea
-          odio. Quod voluptatum odit aspernatur, consequatur harum culpa non a.
+        <p className="text-xl leading-9 mt-2">
+          I have a passion for football and gaming. When I'm not learning or
+          working on my webdeveloper skills, I'm usually doing one of the two
+          activities mentioned.
         </p>
       </div>
     </div>
