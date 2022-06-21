@@ -17,6 +17,7 @@ const Contact = () => {
         <div className="flex justify-center items-center">
           <form
             action="mailto:reinhardtjanniklas96@gmail.com"
+            autocomplete="on"
             className="flex flex-col w-full md:w-1/2"
           >
             <input
