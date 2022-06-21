@@ -16,10 +16,13 @@ const Contact = () => {
 
         <div className="flex justify-center items-center">
           <form
-            action="mailto:reinhardtjanniklas96@gmail.com"
+            name="contact-form"
+            data-netlify="true"
             autocomplete="on"
+            method="POST"
             className="flex flex-col w-full md:w-1/2"
           >
+            <input type="hidden" name="form-name" value="contact-form" />
             <input
               type="text"
               name="name"
@@ -28,7 +31,7 @@ const Contact = () => {
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
-              type="text"
+              type="email"
               name="email"
               required
               placeholder="Enter your email"
