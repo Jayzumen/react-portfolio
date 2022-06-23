@@ -3,8 +3,8 @@ import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import pizzaShop from "../assets/portfolio/pizza-shop.jpg";
+import myPortfolio from "../assets/portfolio/portfolio.jpg";
 
 const Projects = () => {
   const projects = [
@@ -38,17 +38,17 @@ const Projects = () => {
     },
     {
       id: 5,
-      src: reactSmooth,
-      srcUrlD: "https://jn-reinhardt.netlify.app/",
-      srcUrlG: "https://github.com/Jayzumen/The-Simon-Game",
-      description: "This is a project build with react and tailwind",
+      src: pizzaShop,
+      srcUrlD: "https://neapolitan-pizza-shop.netlify.app/",
+      srcUrlG: "https://github.com/Jayzumen/pizza-shop-html-email",
+      description: "This project is a HTML-Email",
     },
     {
       id: 6,
-      src: reactWeather,
+      src: myPortfolio,
       srcUrlD: "https://jn-reinhardt.netlify.app/",
-      srcUrlG: "https://github.com/Jayzumen/The-Simon-Game",
-      description: "This is a project build with react and tailwind",
+      srcUrlG: "https://github.com/Jayzumen/react-portfolio",
+      description: "This is my portfolio build with react and tailwind",
     },
   ];
 
