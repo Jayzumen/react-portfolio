@@ -20,21 +20,17 @@ const Home = () => {
             </p>{" "}
             a Front End Developer
           </h2>
-          {/* <p className="text-gray-300 py-4 max-w-lg">
-            I am a self-taught frontend developer with a passion for creative
-            webapps
-          </p> */}
 
           <div>
             <Link
               to="Projects"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-3 flex items-center rounded-md bg-gradient-to-r
+              className="group text-white text-xl w-fit px-12 py-5 mt-8 flex items-center rounded-md bg-gradient-to-r
             from-cyan-500 to-blue-500 cursor-pointer"
             >
               Projects
-              <span className="ml-2 group-hover:rotate-90 duration-300">
+              <span className="ml-4 group-hover:rotate-90 duration-300">
                 <FaArrowRight />
               </span>
             </Link>
