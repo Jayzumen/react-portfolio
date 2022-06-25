@@ -1,7 +1,7 @@
 import React from "react";
 import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
 import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
+import netflixClone from "../assets/portfolio/netflix-clone.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import pizzaShop from "../assets/portfolio/pizza-shop.jpg";
 import myPortfolio from "../assets/portfolio/portfolio.jpg";
@@ -19,14 +19,14 @@ const Projects = () => {
       id: 2,
       src: installNode,
       srcUrlD: "https://jn-reinhardt.netlify.app/",
-      srcUrlG: "https://github.com/Jayzumen/The-Simon-Game",
-      description: "This is a project build with react and tailwind",
+      srcUrlG: "https://github.com/Jayzumen/The-Simon-Game ",
+      description: "This is a Netflix-Clone build with React and Tailwind",
     },
     {
       id: 3,
-      src: navbar,
-      srcUrlD: "https://jn-reinhardt.netlify.app/",
-      srcUrlG: "https://github.com/Jayzumen/The-Simon-Game",
+      src: netflixClone,
+      srcUrlD: "https://jn-netflix-clone.netlify.app/",
+      srcUrlG: "https://github.com/Jayzumen/netflix-clone",
       description: "This is a project build with react and tailwind",
     },
     {
@@ -41,7 +41,7 @@ const Projects = () => {
       src: pizzaShop,
       srcUrlD: "https://neapolitan-pizza-shop.netlify.app/",
       srcUrlG: "https://github.com/Jayzumen/pizza-shop-html-email",
-      description: "This project is a HTML-Email",
+      description: "This project is a HTML-Email build with HTML and Css",
     },
     {
       id: 6,
