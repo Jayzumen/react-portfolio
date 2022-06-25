@@ -20,14 +20,14 @@ const Projects = () => {
       src: installNode,
       srcUrlD: "https://jn-reinhardt.netlify.app/",
       srcUrlG: "https://github.com/Jayzumen/The-Simon-Game ",
-      description: "This is a Netflix-Clone build with React and Tailwind",
+      description: "This is a project build with react and tailwind",
     },
     {
       id: 3,
       src: netflixClone,
       srcUrlD: "https://jn-netflix-clone.netlify.app/",
       srcUrlG: "https://github.com/Jayzumen/netflix-clone",
-      description: "This is a project build with react and tailwind",
+      description: "This is a Netflix-Clone build with React and Tailwind",
     },
     {
       id: 4,
