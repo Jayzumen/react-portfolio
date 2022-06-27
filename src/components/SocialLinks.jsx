@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/jan-niklas-reinhardt-98a817239/",
+      href: "https://www.linkedin.com/in/jan-niklas-reinhardt/",
       style: "rounded-tr-md",
     },
     {
