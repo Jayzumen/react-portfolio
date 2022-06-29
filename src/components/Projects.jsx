@@ -1,5 +1,6 @@
 import React from "react";
 
+import googleClone from "../assets/portfolio/google-clone.jpg";
 import netflixClone from "../assets/portfolio/netflix-clone.jpg";
 import bmiCalc from "../assets/portfolio/bmi-calc.jpg";
 import pizzaShop from "../assets/portfolio/pizza-shop.jpg";
@@ -33,11 +34,11 @@ const Projects = () => {
     },
     {
       id: 4,
-      src: netflixClone,
-      title: "Landing Page",
-      srcUrlD: "https://jn-reinhardt.netlify.app/",
-      srcUrlG: "https://github.com/Jayzumen/The-Simon-Game ",
-      description: "This is a project build with react and tailwind",
+      src: googleClone,
+      title: "Google Clone",
+      srcUrlD: "https://google-clone-jn.netlify.app/",
+      srcUrlG: "https://github.com/Jayzumen/google-clone",
+      description: "This is a Google-Clone build with HTML, CSS and JS",
     },
     {
       id: 5,
@@ -45,7 +46,7 @@ const Projects = () => {
       title: "BMI-Calculator",
       srcUrlD: "https://bmi-calc-jn.netlify.app/",
       srcUrlG: "https://github.com/Jayzumen/bmi-calc-js",
-      description: "This is an BMI-Calculator build with JavaScript",
+      description: "This is an BMI-Calculator build with HTML, CSS and JS",
     },
     {
       id: 6,
