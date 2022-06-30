@@ -3,7 +3,7 @@ import React from "react";
 import googleClone from "../assets/portfolio/google-clone.jpg";
 import netflixClone from "../assets/portfolio/netflix-clone.jpg";
 import bmiCalc from "../assets/portfolio/bmi-calc.jpg";
-import pizzaShop from "../assets/portfolio/pizza-shop.jpg";
+import jsClock from "../assets/portfolio/js-clock.jpg";
 import myPortfolio from "../assets/portfolio/portfolio.jpg";
 
 const Projects = () => {
@@ -50,11 +50,11 @@ const Projects = () => {
     },
     {
       id: 6,
-      src: pizzaShop,
-      title: "Pizza Shop",
-      srcUrlD: "https://neapolitan-pizza-shop.netlify.app/",
-      srcUrlG: "https://github.com/Jayzumen/pizza-shop-html-email",
-      description: "This is an HTML-Email build with HTML and CSS",
+      src: jsClock,
+      title: "Javascript Clock",
+      srcUrlD: "https://js-clock-jn.netlify.app/",
+      srcUrlG: "https://github.com/Jayzumen/js-clock",
+      description: "This is an Clock build with Javascript and CSS",
     },
   ];
 
