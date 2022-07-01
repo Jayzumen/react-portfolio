@@ -1,5 +1,5 @@
 import React from "react";
-
+import todoApp from "../assets/portfolio/to-do-app.jpg";
 import googleClone from "../assets/portfolio/google-clone.jpg";
 import netflixClone from "../assets/portfolio/netflix-clone.jpg";
 import bmiCalc from "../assets/portfolio/bmi-calc.jpg";
@@ -11,19 +11,20 @@ const Projects = () => {
     {
       id: 1,
       src: netflixClone,
-      title: "",
-      srcUrlD: "https://jn-reinhardt.netlify.app/",
-      srcUrlG: "https://github.com/Jayzumen/The-Simon-Game",
-      description: "This project is build with react and tailwind.",
-    },
-    {
-      id: 2,
-      src: netflixClone,
       title: "Netflix-Clone",
       srcUrlD: "https://jn-netflix-clone.netlify.app/",
       srcUrlG: "https://github.com/Jayzumen/netflix-clone",
       description: "This is a Netflix-Clone build with React and Tailwind",
     },
+    {
+      id: 2,
+      src: todoApp,
+      title: "To-Do-App",
+      srcUrlD: "https://to-do-app-jn.netlify.app/",
+      srcUrlG: "https://github.com/Jayzumen/to-do-app",
+      description: "This is a To-Do-App build with Javascript.",
+    },
+
     {
       id: 3,
       src: myPortfolio,
@@ -34,6 +35,14 @@ const Projects = () => {
     },
     {
       id: 4,
+      src: jsClock,
+      title: "Javascript Clock",
+      srcUrlD: "https://js-clock-jn.netlify.app/",
+      srcUrlG: "https://github.com/Jayzumen/js-clock",
+      description: "This is an Clock build with Javascript and CSS",
+    },
+    {
+      id: 5,
       src: googleClone,
       title: "Google Clone",
       srcUrlD: "https://google-clone-jn.netlify.app/",
@@ -41,20 +50,12 @@ const Projects = () => {
       description: "This is a Google-Clone build with HTML, CSS and JS",
     },
     {
-      id: 5,
+      id: 6,
       src: bmiCalc,
       title: "BMI-Calculator",
       srcUrlD: "https://bmi-calc-jn.netlify.app/",
       srcUrlG: "https://github.com/Jayzumen/bmi-calc-js",
       description: "This is an BMI-Calculator build with HTML, CSS and JS",
-    },
-    {
-      id: 6,
-      src: jsClock,
-      title: "Javascript Clock",
-      srcUrlD: "https://js-clock-jn.netlify.app/",
-      srcUrlG: "https://github.com/Jayzumen/js-clock",
-      description: "This is an Clock build with Javascript and CSS",
     },
   ];
 

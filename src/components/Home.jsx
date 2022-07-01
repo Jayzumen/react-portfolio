@@ -21,16 +21,29 @@ const Home = () => {
             a Front End Developer
           </h2>
 
-          <div>
+          <div className="flex flex-wrap">
             <Link
               to="Projects"
               smooth
               duration={500}
-              className="group text-white text-xl w-fit px-12 py-5 mt-8 flex items-center rounded-md bg-gradient-to-r
+              className="group text-white text-xl w-fit px-12 py-5 mt-8 mr-4 flex items-center rounded-md bg-gradient-to-r
             from-cyan-500 to-blue-500 cursor-pointer"
             >
               Projects
-              <span className="ml-4 group-hover:rotate-90 duration-300">
+              <span className="ml-4 group-hover:rotate-90 duration-500">
+                <FaArrowRight />
+              </span>
+            </Link>
+
+            <Link
+              to="Contact"
+              smooth
+              duration={500}
+              className="group text-white text-xl w-fit px-7 py-5 mt-4  sm:mt-8 md:mt-8 lg:mt-8 flex items-center rounded-md bg-gradient-to-r
+            from-cyan-500 to-blue-500 cursor-pointer"
+            >
+              Contact Me!
+              <span className="ml-4 group-hover:rotate-90 duration-500">
                 <FaArrowRight />
               </span>
             </Link>
