@@ -2,7 +2,7 @@ import React from "react";
 import todoApp from "../assets/portfolio/to-do-app.jpg";
 import googleClone from "../assets/portfolio/google-clone.jpg";
 import netflixClone from "../assets/portfolio/netflix-clone.jpg";
-import bmiCalc from "../assets/portfolio/bmi-calc.jpg";
+import weatherApp from "../assets/portfolio/weather-app.jpg";
 import jsClock from "../assets/portfolio/js-clock.jpg";
 import myPortfolio from "../assets/portfolio/portfolio.jpg";
 
@@ -14,7 +14,8 @@ const Projects = () => {
       title: "Netflix-Clone",
       srcUrlD: "https://netflix-clone-jn.web.app/",
       srcUrlG: "https://github.com/Jayzumen/netflix-clone",
-      description: "A Netflix-Clone build with React, TailwindCss and Firebase",
+      description:
+        "A Netflix-Clone build with React, Tailwind CSS and Firebase",
     },
     {
       id: 2,
@@ -31,7 +32,7 @@ const Projects = () => {
       title: "My Portfolio",
       srcUrlD: "https://jn-reinhardt.netlify.app/",
       srcUrlG: "https://github.com/Jayzumen/react-portfolio",
-      description: "This is my Portfolio build with React and Tailwind",
+      description: "This is my Portfolio build with React and Tailwind CSS",
     },
     {
       id: 4,
@@ -51,11 +52,11 @@ const Projects = () => {
     },
     {
       id: 6,
-      src: bmiCalc,
-      title: "BMI-Calculator",
-      srcUrlD: "https://bmi-calc-jn.netlify.app/",
-      srcUrlG: "https://github.com/Jayzumen/bmi-calc-js",
-      description: "This is an BMI-Calculator build with HTML, CSS and JS",
+      src: weatherApp,
+      title: "Weather-App",
+      srcUrlD: "https://jn-weather-app.netlify.app",
+      srcUrlG: "https://github.com/Jayzumen/react-weather",
+      description: "This is an Weather App build with React and Tailwind CSS",
     },
   ];
 
@@ -71,7 +72,7 @@ const Projects = () => {
           </p>
           <p className="py-6 text-lg">Check out my work below</p>
         </div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 px-12 sm:p-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 px-12 sm:p-0">
           {projects.map(({ id, src, title, srcUrlD, srcUrlG, description }) => (
             <div
               key={id}
