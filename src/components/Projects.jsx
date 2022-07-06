@@ -36,6 +36,14 @@ const Projects = () => {
     },
     {
       id: 4,
+      src: weatherApp,
+      title: "Weather-App",
+      srcUrlD: "https://jn-weather-app.netlify.app",
+      srcUrlG: "https://github.com/Jayzumen/react-weather",
+      description: "This is an Weather App build with React and Tailwind CSS",
+    },
+    {
+      id: 5,
       src: jsClock,
       title: "Javascript Clock",
       srcUrlD: "https://js-clock-jn.netlify.app/",
@@ -43,20 +51,12 @@ const Projects = () => {
       description: "This is an Clock build with Javascript and CSS",
     },
     {
-      id: 5,
+      id: 6,
       src: googleClone,
       title: "Google Clone",
       srcUrlD: "https://google-clone-jn.netlify.app/",
       srcUrlG: "https://github.com/Jayzumen/google-clone",
       description: "This is a Google-Clone build with HTML, CSS and JS",
-    },
-    {
-      id: 6,
-      src: weatherApp,
-      title: "Weather-App",
-      srcUrlD: "https://jn-weather-app.netlify.app",
-      srcUrlG: "https://github.com/Jayzumen/react-weather",
-      description: "This is an Weather App build with React and Tailwind CSS",
     },
   ];
 
