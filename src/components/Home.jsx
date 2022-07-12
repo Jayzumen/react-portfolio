@@ -39,7 +39,7 @@ const Home = () => {
               to="Contact"
               smooth
               duration={500}
-              className="group text-white text-xl w-fit px-7 py-5 mt-4  sm:mt-8 md:mt-8 lg:mt-8 flex items-center rounded-md bg-gradient-to-r
+              className="group text-white text-xl w-fit px-10 py-5 mt-4 sm:mt-8 md:mt-8 lg:mt-8 flex items-center rounded-md bg-gradient-to-r
             from-cyan-500 to-blue-500 cursor-pointer"
             >
               Contact Me!
