@@ -14,11 +14,10 @@ const About = () => {
         </div>
         <p className="text-xl mt-20 leading-9">
           I am a self-taught front end developer, who started learning front end
-          development in the past months. I started studying "Data Science" in
-          2020 and this got me into programming. In my free time I started
-          learning about front end development and fell in love. Since then I
-          took multiple courses and learned every day so that I can fulfill my
-          dream to become a fulltime front end developer.
+          development in the past months. In my free time I started learning
+          about front end development and fell in love. Since then I took
+          multiple courses and learned every day so that I can fulfill my dream
+          to become a fulltime front end developer.
         </p>
         <br />
 
