@@ -4,7 +4,7 @@ import googleClone from "../assets/portfolio/google-clone.jpg";
 import netflixClone from "../assets/portfolio/netflix-clone.jpg";
 import weatherApp from "../assets/portfolio/weather-app.jpg";
 import jsClock from "../assets/portfolio/js-clock.jpg";
-import myPortfolio from "../assets/portfolio/portfolio.jpg";
+import cryptoApp from "../assets/portfolio/crypto.jpg";
 
 const Projects = () => {
   const projects = [
@@ -28,11 +28,11 @@ const Projects = () => {
 
     {
       id: 3,
-      src: myPortfolio,
-      title: "My Portfolio",
-      srcUrlD: "https://jn-reinhardt.netlify.app/",
-      srcUrlG: "https://github.com/Jayzumen/react-portfolio",
-      description: "This is my Portfolio build with React and Tailwind CSS",
+      src: cryptoApp,
+      title: "Crypto-Space",
+      srcUrlD: "https://crypto-space-jn.netlify.app/",
+      srcUrlG: "https://github.com/Jayzumen/crypto-dashboard",
+      description: "This is a Crypto App build with React and Tailwind CSS",
     },
     {
       id: 4,
