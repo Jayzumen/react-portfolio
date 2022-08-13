@@ -12,7 +12,7 @@ const Projects = () => {
       id: 1,
       src: netflixClone,
       title: "Netflix-Clone",
-      srcUrlD: "https://netflix-clone-jn.netlify.app",
+      srcUrlD: "https://jn-netflix-clone.netlify.app",
       srcUrlG: "https://github.com/Jayzumen/next-netflix-clone",
       description:
         "A Netflix-Clone build with Nextjs, Tailwind CSS and Firebase",
