@@ -12,10 +12,10 @@ const Projects = () => {
       id: 1,
       src: netflixClone,
       title: "Netflix-Clone",
-      srcUrlD: "https://netflix-clone-jn.web.app/",
-      srcUrlG: "https://github.com/Jayzumen/netflix-clone",
+      srcUrlD: "https://netflix-clone-jn.netlify.app",
+      srcUrlG: "https://github.com/Jayzumen/next-netflix-clone",
       description:
-        "A Netflix-Clone build with React, Tailwind CSS and Firebase",
+        "A Netflix-Clone build with Nextjs, Tailwind CSS and Firebase",
     },
     {
       id: 2,
@@ -65,8 +65,7 @@ const Projects = () => {
   return (
     <div
       name='Projects'
-      className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'
-    >
+      className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         <div className='pb-8 text-center justify-center'>
           <p className='text-6xl font-bold inline border-b-4 border-gray-500'>
@@ -79,8 +78,7 @@ const Projects = () => {
             ({ id, src, title, srcUrlD, srcUrlG, description }) => (
               <div
                 key={id}
-                className='shadow-md shadow-gray-600 rounded-lg overflow-hidden'
-              >
+                className='shadow-md shadow-gray-600 rounded-lg overflow-hidden'>
                 <img
                   src={src}
                   alt={"Screenshot" + title}
