@@ -3,7 +3,7 @@ import todoApp from "../assets/portfolio/to-do-app.jpg";
 import netflixClone from "../assets/portfolio/netflix-clone.jpg";
 import weatherApp from "../assets/portfolio/weather-app.jpg";
 import jsClock from "../assets/portfolio/js-clock.jpg";
-import cryptoApp from "../assets/portfolio/crypto.jpg";
+import noteTakerApp from "../assets/portfolio/note-taker.jpg";
 import pokedex from "../assets/portfolio/pokedex.jpg";
 
 const Projects = () => {
@@ -19,21 +19,20 @@ const Projects = () => {
     },
     {
       id: 2,
+      src: noteTakerApp,
+      title: "NoteTaker",
+      srcUrlD: "https://note-taker-jn.netlify.app/",
+      srcUrlG: "https://github.com/Jayzumen/NoteTaker",
+      description:
+        "This is a NoteTaker App build with React and TypeScript",
+    },
+    {
+      id: 3,
       src: todoApp,
       title: "To-Do-App",
       srcUrlD: "https://to-do-app-jn.netlify.app/",
       srcUrlG: "https://github.com/Jayzumen/to-do-app",
       description: "This is a To-Do-App build with Javascript.",
-    },
-
-    {
-      id: 3,
-      src: cryptoApp,
-      title: "Crypto-Space",
-      srcUrlD: "https://crypto-space-jn.netlify.app/",
-      srcUrlG: "https://github.com/Jayzumen/crypto-dashboard",
-      description:
-        "This is a Crypto App build with React and Tailwind CSS",
     },
     {
       id: 4,
@@ -65,37 +64,37 @@ const Projects = () => {
   return (
     <div
       name='Projects'
-      className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
-      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-        <div className='pb-8 text-center justify-center'>
-          <p className='text-6xl font-bold inline border-b-4 border-gray-500'>
+      className='w-full bg-gradient-to-b from-black to-gray-800 text-white md:h-screen'>
+      <div className='mx-auto flex h-full w-full max-w-screen-lg flex-col justify-center p-4'>
+        <div className='justify-center pb-8 text-center'>
+          <p className='inline border-b-4 border-gray-500 text-6xl font-bold'>
             Projects
           </p>
           <p className='py-6 text-lg'>Check out my work below</p>
         </div>
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 px-12 sm:p-0'>
+        <div className='grid gap-6 px-12 sm:grid-cols-2 sm:p-0 md:grid-cols-3 lg:grid-cols-3'>
           {projects.map(
             ({ id, src, title, srcUrlD, srcUrlG, description }) => (
               <div
                 key={id}
-                className='shadow-md shadow-gray-600 rounded-lg overflow-hidden'>
+                className='overflow-hidden rounded-lg shadow-md shadow-gray-600'>
                 <img
                   src={src}
                   alt={"Screenshot" + title}
                   title={title}
                   className='rounded-md duration-300 hover:scale-105'
                 />
-                <p className='text-xl mx-auto my-3 text-center border-b-2 border-gray-500'>
+                <p className='mx-auto my-3 border-b-2 border-gray-500 text-center text-xl'>
                   {description}
                 </p>
                 <div className='flex items-center justify-center'>
                   <a href={srcUrlD} target='_blank' rel='noreferrer'>
-                    <button className=' text-lg px-8 py-1 m-5 duration-200 hover:scale-105'>
+                    <button className=' m-5 px-8 py-1 text-lg duration-200 hover:scale-105'>
                       Demo
                     </button>
                   </a>
                   <a href={srcUrlG} target='_blank' rel='noreferrer'>
-                    <button className=' text-lg px-8 py-1 m-5 duration-200 hover:scale-105'>
+                    <button className=' m-5 px-8 py-1 text-lg duration-200 hover:scale-105'>
                       Code
                     </button>
                   </a>
