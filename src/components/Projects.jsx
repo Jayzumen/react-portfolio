@@ -3,7 +3,7 @@ import artGallery from "../assets/portfolio/art-gallery.jpg";
 import netflixClone from "../assets/portfolio/netflix-clone.jpg";
 import weatherApp from "../assets/portfolio/weather-app.jpg";
 import jsClock from "../assets/portfolio/js-clock.jpg";
-import noteTakerApp from "../assets/portfolio/note-taker.jpg";
+import noteTakerApp from "../assets/portfolio/notetaker.jpg";
 import pokedex from "../assets/portfolio/pokedex.jpg";
 
 const Projects = () => {
