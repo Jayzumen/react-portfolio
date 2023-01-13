@@ -4,12 +4,20 @@ import netflixClone from "../assets/portfolio/netflix-clone.jpg";
 import weatherApp from "../assets/portfolio/weather-app.jpg";
 import jsClock from "../assets/portfolio/js-clock.jpg";
 import noteTakerApp from "../assets/portfolio/notetaker.jpg";
-import pokedex from "../assets/portfolio/pokedex.jpg";
+import pokefans from "../assets/portfolio/pokefans.jpg";
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
+      src: pokefans,
+      title: "Pokefans App",
+      srcUrlD: "https://pokefans-jn.netlify.app/",
+      srcUrlG: "https://github.com/Jayzumen/pokefans",
+      description: "This is Pokefans build with React and Tailwind",
+    },
+    {
+      id: 2,
       src: netflixClone,
       title: "Netflix-Clone",
       srcUrlD: "https://jn-n-clone.netlify.app",
@@ -18,7 +26,7 @@ const Projects = () => {
         "A Netflix-Clone build with Nextjs, Tailwind CSS and Firebase",
     },
     {
-      id: 2,
+      id: 3,
       src: noteTakerApp,
       title: "NoteTaker",
       srcUrlD: "https://note-taker-jn.netlify.app/",
@@ -26,7 +34,7 @@ const Projects = () => {
       description: "This is a NoteTaker App build with React and TypeScript",
     },
     {
-      id: 3,
+      id: 4,
       src: artGallery,
       title: "Art-Gallery",
       srcUrlD: "https://artgallery-jn.netlify.app/",
@@ -34,7 +42,7 @@ const Projects = () => {
       description: "This is a Art-Gallery build with React and Javascript.",
     },
     {
-      id: 4,
+      id: 5,
       src: weatherApp,
       title: "Weather-App",
       srcUrlD: "https://jn-weather-app.netlify.app",
@@ -42,20 +50,12 @@ const Projects = () => {
       description: "This is an Weather App build with React and Tailwind CSS",
     },
     {
-      id: 5,
+      id: 6,
       src: jsClock,
       title: "Javascript Clock",
       srcUrlD: "https://js-clock-jn.netlify.app/",
       srcUrlG: "https://github.com/Jayzumen/js-clock",
       description: "This is an Clock build with Javascript and CSS",
-    },
-    {
-      id: 6,
-      src: pokedex,
-      title: "Pokédex App",
-      srcUrlD: "https://pokedex-jn.netlify.app/",
-      srcUrlG: "https://github.com/Jayzumen/next-pokemon",
-      description: "This is a Pokédex build with Nextjs and Tailwind",
     },
   ];
 
